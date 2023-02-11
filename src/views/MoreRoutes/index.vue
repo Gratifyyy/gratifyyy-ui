@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <div>
-      多级导航1
-    </div>
-  </div>
+  <g-button>1</g-button>
 </template>
+
+<script>
+export default {
+
+};
+</script>
+
+<style>
+
+</style>

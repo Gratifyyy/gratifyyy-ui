@@ -40,7 +40,7 @@ const defaultRoutes = [
         },
         path: '/home',
         name: 'home',
-        component: () => import('@/views/Home/index.vue'),
+        component: () => import('@/views/home/index.vue'),
       },
     ],
   },

@@ -2,10 +2,10 @@ const globalSettings = {
   //   版权信息配置
   copyrightOptions: {
     date: '2020',
-    company: '阿星',
-    webSite: 'https://blog.xingxiaowu.cn/',
+    company: '可喜可贺',
+    webSite: '',
   },
-  siteName: '阿星的模板',
+  siteName: '可喜可贺的模板',
   // 登录失效的错误码
   logonFailureCode: '',
   // 使用logo或者iconfont或者none
