@@ -14,8 +14,9 @@ import '@/styles/index.less';
 
 // 自定义组件
 import Button from './packages/button';
+import Icon from './packages/icon';
 
-Vue.use(Button);
+Vue.use(Button).use(Icon);
 
 Vue.config.productionTip = false;
 

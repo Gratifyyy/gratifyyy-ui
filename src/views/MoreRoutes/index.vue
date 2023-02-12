@@ -4,6 +4,9 @@
     <g-button type="success" round>success</g-button>
     <g-button type="warning">warning</g-button>
     <g-button type="danger" @click="handleClick">danger</g-button>
+
+    <g-icon name="wodexianxing"/>
+
   </div>
 
 </template>
@@ -12,6 +15,7 @@
 export default {
   methods: {
     handleClick() {
+      // eslint-disable-next-line
       alert(11);
     },
   },
