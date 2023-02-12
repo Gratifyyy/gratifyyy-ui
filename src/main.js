@@ -12,6 +12,11 @@ import api from './api';
 import '@/components/autoRegister';
 import '@/styles/index.less';
 
+// 自定义组件
+import Button from './packages/button';
+
+Vue.use(Button);
+
 Vue.config.productionTip = false;
 
 Vue.prototype.$dayjs = dayjs;
